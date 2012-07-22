@@ -1,17 +1,10 @@
 /**
  * Variables
  */
-
-@font-face {
-  font-family: 'Dabblet';
-  src: url(../img/dabblet.ttf);
-}
-
 @font-face {
   font-family: Primary;
   src: local('Baskerville');
 }
-
 
 /**
  * Styles
@@ -21,7 +14,7 @@
 }
 
 html {
-  background: url(../img/noise.png) hsl(24, 20%, 95%);
+  background: hsl(24, 20%, 95%);
   max-width: 40em;
   padding-left: 12em;
   margin: auto;
@@ -52,7 +45,7 @@ body > hgroup {
 }
 
   body > hgroup > h1 {
-    font-family: Dabblet, sans-serif;
+    font-family: sans-serif;
     font-size: 100%;
   }
   
@@ -191,7 +184,7 @@ footer {
   }
 
 ::selection {
-  background-color: initial; /* See issue #140 */
+  background-color: initial; 
   color: white;
-  text-shadow: none; /* See issue #135 */
+  text-shadow: none; 
 }
