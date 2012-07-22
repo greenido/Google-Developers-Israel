@@ -114,15 +114,15 @@ section h2 {
 
 nav {
   position: fixed;
-  top: 13em;
-  width: 12em;
+  top: 6em;
+  width: 10em;
   padding-right: 1em;
   margin-left: -14em;
   text-align: right;
 }
 
 nav:not(:hover) {
-  color: hsla(200,10%,20%,.4);
+  color: rgba(5, 17, 22, 0.7);
 }
 
   nav > ol {
@@ -177,8 +177,8 @@ footer {
   
   #quick-links > a {
     padding: .4em .8em;
-    background: url('../img/noise.png') hsla(200, 10%, 20%,.6);
-    color: white;
+    background: rgba(4, 2, 9, .6);
+    color: lightseagreen;
     font-weight: bold;
     border-radius: 999px;
     text-decoration: none;
