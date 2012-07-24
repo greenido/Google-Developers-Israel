@@ -136,27 +136,26 @@ table {
   border-spacing: 0;
 }
 
-  thead {
-    background: rgba(0,0,0,.1);
+thead {
+  background: rgba(0,0,0,.1);
+}
+
+td {
+  border-bottom: 1px solid rgba(0,0,0,.3);  
+  padding: .3em .5em;
+  vertical-align: top;
+}  
+  tbody td:first-child {
+    width: 10em;
   }
   
-    td {
-      border-bottom: 1px solid rgba(0,0,0,.3);  
-      padding: .3em .5em;
-      vertical-align: top;
-    }
-    
-    tbody td:first-child {
-      width: 10em;
-    }
-    
-    tbody td:first-child > kbd {
-      font-size: 120%;
-    }
-    
-    tbody td:first-child > .note {
-      font-size: 65%;
-    }
+  tbody td:first-child > kbd {
+    font-size: 120%;
+  }
+  
+  tbody td:first-child > .note {
+    font-size: 65%;
+  }
 
 footer {
   border-top: 1px solid rgba(0,0,0,.2);
