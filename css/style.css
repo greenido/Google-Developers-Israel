@@ -14,7 +14,7 @@
 }
 
 html {
-  background: hsl(24, 20%, 95%);
+  background: hsl(24, 20%, 99%);
   max-width: 40em;
   padding-left: 12em;
   margin: auto;
@@ -38,15 +38,14 @@ h1, h2 {
 body > hgroup {
   padding: .5em 0;
   color: black;
-  text-align: center;
-  font-size: 400%;
-  line-height: .4;
+  font-size: 300%;
   -webkit-transform: translateZ(0); /* fix for chopped letters */
 }
 
   body > hgroup > h1 {
     font-family: sans-serif;
     font-size: 100%;
+  line-height: 1.4;
   }
   
   body > hgroup > h1 > a {
@@ -91,7 +90,7 @@ section#toc {
 
 section h1,
 section h2 {
-  margin: 1.5em 0 .5em;
+  margin: .5em 0 .5em;
   line-height: 1;
   letter-spacing: -.05em;
 }
@@ -111,7 +110,10 @@ nav {
   width: 10em;
   padding-right: 1em;
   margin-left: -14em;
-  text-align: right;
+}
+
+nav ol {
+	padding: 0;
 }
 
 nav:not(:hover) {
