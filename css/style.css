@@ -31,7 +31,6 @@ h1, h2 {
 }
 
 body > hgroup {
-  padding: .5em 0;
   color: black;
   font-size: 300%;
   -webkit-transform: translateZ(0); /* fix for chopped letters */
