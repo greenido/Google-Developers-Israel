@@ -1,12 +1,4 @@
 /**
- * Variables
- */
-@font-face {
-  font-family: Primary;
-  src: local('Baskerville');
-}
-
-/**
  * Styles
  */
 * {
@@ -24,7 +16,8 @@ body {
   padding: 1em;
   border-left: 1px solid hsla(200,10%,20%,.4);
   margin: 2em auto;
-  font: 110%/1.5 Primary;
+  font: 110%/1.5 "Open Sans", sans-serif;
+  font-weight: lighter;
   hyphens: auto;
   text-shadow: 0 0.0847em white; /* See issue #134 */
   text-rendering: optimizelegibility;
@@ -32,7 +25,8 @@ body {
 }
 
 h1, h2 {
-  font: bold 200%/1 sans-serif;
+  font: bold 200%/1 "Open Sans", sans-serif;
+  color: #333;
 }
 
 body > hgroup {
@@ -43,9 +37,10 @@ body > hgroup {
 }
 
   body > hgroup > h1 {
-    font-family: sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 100%;
-  line-height: 1.4;
+	font-weight: bold;
+    line-height: 1.4;
   }
   
   body > hgroup > h1 > a {
@@ -54,7 +49,7 @@ body > hgroup {
   
   body > hgroup > h2 {
     margin-top: -.2em;
-    font: italic 80%/1 Primary;
+    font: 80%/1 "Open Sans";
     text-indent: .1em;
     color: #166BB9;
     cursor: help;
