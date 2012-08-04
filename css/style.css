@@ -16,7 +16,8 @@ body {
   padding: 1em;
   border-left: 1px solid hsla(200,10%,20%,.4);
   margin: 2em auto;
-  font: 110%/1.5 "Open Sans", sans-serif;
+  font: 120%/1.5 "Open Sans", sans-serif;
+  text-align: justify;
   font-weight: lighter;
   hyphens: auto;
   text-shadow: 0 0.0847em white; /* See issue #134 */
@@ -80,7 +81,7 @@ kbd[title] {
 
 section:first-of-type,
 section#toc {
-  font-size: 120%;
+  font-size: 130%;
 }
 
 section h1,
