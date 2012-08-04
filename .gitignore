@@ -44,3 +44,9 @@ GoogleDevelopersIsrael/war/WEB-INF/lib/jdo2-api-2.3-eb.jar
 GoogleDevelopersIsrael/war/WEB-INF/lib/jsr107cache-1.1.jar
 
 GoogleDevelopersIsrael/war/WEB-INF/web.xml
+
+GoogleDevelopersIsrael/war/WEB-INF/classes/META-INF/jdoconfig.xml
+
+GoogleDevelopersIsrael/war/WEB-INF/classes/META-INF/persistence.xml
+
+GoogleDevelopersIsrael/war/WEB-INF/classes/log4j.properties
