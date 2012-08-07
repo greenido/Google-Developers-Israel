@@ -50,3 +50,25 @@ GoogleDevelopersIsrael/war/WEB-INF/classes/META-INF/jdoconfig.xml
 GoogleDevelopersIsrael/war/WEB-INF/classes/META-INF/persistence.xml
 
 GoogleDevelopersIsrael/war/WEB-INF/classes/log4j.properties
+
+gdg-il/.classpath
+
+gdg-il/.project
+
+*.prefs
+
+*.xml
+
+*.jar
+
+*.properties
+
+gdg-il/war/css/style.css
+
+gdg-il/war/imgs/icon.png
+
+gdg-il/war/imgs/logo.png
+
+gdg-il/war/imgs/network.png
+
+gdg-il/war/index.html
