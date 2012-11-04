@@ -101,14 +101,24 @@ section h2 {
 
 nav {
   position: fixed;
-  top: 6em;
+  top: 0;
   width: 10em;
   padding-right: 1em;
-  margin-left: -14em;
+  margin-left: -21em;
+  z-index:101;
+
 }
+  #img_nav {
+    margin-left: -5em;
+    padding-top: 1em;
+    background-color: white;
+  }
 
 nav ol {
 	padding: 0;
+  position: relative;
+  top: -10em;
+  list-style: square;
 }
 
 nav:not(:hover) {
@@ -123,10 +133,22 @@ nav:not(:hover) {
     padding: .25em 0;
     text-decoration: none;
     color: inherit;
+    font-size: 30px;
   }
   
   nav a:hover {
     color: #a34;
+  }
+
+#left_panel {
+  position: relative;
+  left: -23em;
+  top: 5em;
+  z-index: 100;
+  height: 0;
+}
+  #img_rollup {
+    width: 338px;
   }
 
 table {
