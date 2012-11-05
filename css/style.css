@@ -108,16 +108,25 @@ nav {
   z-index:101;
 
 }
-  #img_nav {
-    margin-left: -5em;
-    padding-top: 1em;
-    background-color: white;
-  }
+#img_nav {
+  margin-left: 2em;
+  padding-top: 1em;
+  background-color: white;
+}
+
+#img_rollup {
+  position: relative;
+  top: -7em;
+  left: 2em;
+  z-index: -5;
+}
 
 nav ol {
-	padding: 0;
+	padding: 10px;
   position: relative;
-  top: -10em;
+  top: -19em;
+  font-size: 50%;
+  left: 13.5em;
   list-style: square;
 }
 
@@ -141,15 +150,12 @@ nav:not(:hover) {
   }
 
 #left_panel {
-  position: relative;
-  left: -23em;
-  top: 5em;
+  position: fixed;
+  top: 16em;
   z-index: 100;
-  height: 0;
+  left: 0em;
 }
-  #img_rollup {
-    width: 338px;
-  }
+  
 
 table {
   border-spacing: 0;
